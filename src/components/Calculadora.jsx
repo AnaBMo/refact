@@ -12,9 +12,12 @@ const Calculadora = () => {
       return;
     }
     switch (operation) {
-      case 'sum': setResult(number1 + number2); break;
-      case 'subtract': setResult(number1 - number2); break;
-      case 'multiply': setResult(number1 * number2); break;
+      case 'sum': setResult(number1 + number2); 
+        break;
+      case 'subtract': setResult(number1 - number2); 
+        break;
+      case 'multiply': setResult(number1 * number2); 
+        break;
       case 'divide':
         setResult(number2 !== 0 ? number1 / number2 : 'Error: División por 0');
         break;
